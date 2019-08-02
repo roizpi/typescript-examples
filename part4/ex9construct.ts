@@ -1,4 +1,4 @@
-class Cliente {
+class Cliente2 {
     nombre: string;
     edad: number;
 

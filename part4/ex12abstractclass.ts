@@ -1,4 +1,4 @@
-abstract class Figura {
+abstract class Figura2 {
     private lados: number;
 
     constructor(lados: number) {
@@ -13,7 +13,7 @@ abstract class Figura {
     abstract area(): number;
 }
 
-class Cuadrado extends Figura {
+class Cuadrado2 extends Figura2 {
     private ancho: number;
 
     constructor(ancho: number) {
@@ -26,7 +26,7 @@ class Cuadrado extends Figura {
     }
 }
 
-class Circulo extends Figura {
+class Circulo extends Figura2 {
 
     private radio: number;
 
